@@ -1,6 +1,3 @@
-# entra-id-lab-notes
-Practical and theoretical notes for the SC-300 Microsoft Identity and Access Administrator certification
-
 # SC-300 Lab Notes
 
 Hands-on notes from working through the SC-300 (Microsoft Identity and Access Administrator) certification labs.
@@ -10,8 +7,8 @@ This repo documents my lab setup, configurations, and lessons learned while prep
 ## Lab Environment
 
 - **Tenant:** Microsoft Entra ID with P2 licensing
-- **Custom Domain:** <your-custom-domain>
-- **On-Prem Simulation:** Windows Server 2025 ARM VM (Parallels on M1 Mac)
+- **Custom Domain:** serdunk.xyz
+- **On-Prem Simulation:** **Azure VM (Windows Server 2019/2022 x64)** *[Changed due to ARM incompatibility]*
 - **Hybrid Identity:** Entra Connect Sync
 
 ## Contents
@@ -22,7 +19,7 @@ This repo documents my lab setup, configurations, and lessons learned while prep
 | [02 - Users and Groups](./02-users-and-groups.md) | Dynamic groups, custom security attributes |
 | [03 - Custom Domains](./03-custom-domains.md) | Adding and verifying a custom domain |
 | [04 - Company Branding](./04-company-branding.md) | Customizing the sign-in experience |
-| [05 - Conditional Access](./05-conditional-access.md) | MFA policies, risk-based access |
+| [05 - External Identities](./05-external-identities.md) | **B2B Guest access, Cross-Tenant settings** |
 | [06 - Hybrid Identity](./06-hybrid-identity.md) | AD DS setup, Entra Connect configuration |
 
 ## Prerequisites
@@ -39,4 +36,4 @@ These are learning notes, not official documentation. I've done my best to keep 
 
 ## About Me
 
-I'm an MDR analyst working toward my SC-300 certification. You can find me on [LinkedIn](your-link) or [GitHub](your-link).
+I'm an MDR analyst working toward my SC-300 certification. You can find me on [Linke
